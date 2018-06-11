@@ -1,0 +1,73 @@
+//type:1-输入框，2-select选择框，3-单选框，4-复选框，5-textarea文本域
+//reg:0-无验证，1-纯数字，2-Email地址,3-tel电话，4-ID身份证号
+modelData:{
+          "title":"后台定制模态框",
+          "formData":[{
+                    "type": "1",
+                    "reg": "1",
+                    "title": "输入框",
+                    "default":"请输入姓名",
+                    "name":"name",
+                    "value": ""
+                },
+                {
+                    "type": "2",
+                    "reg": "0",
+                    "title": "select框",
+                    "value":"",
+                    "default":"下拉框请选择",
+                    "name":"food",
+                    "item": [{
+                                    value: '1',
+                                    label: '黄金糕'
+                                }, {
+                                    value: '2',
+                                    label: '双皮奶'
+                                }, {
+                                    value: '3',
+                                    label: '蚵仔煎'
+                                }]
+                },
+                {
+                    "type": "3",
+                    "reg": "0",
+                    "title": "单选框",
+                    "name":"sex",
+                    "value": "",
+                    "item": [{
+                            "value": "1",
+                            "label": "男"
+                        },
+                        {
+                            "value": "0",
+                            "label": "女"
+                        }
+                    ]
+                },
+                {
+                    "type": "4",
+                    "reg": "0",
+                    "title": "复选框",
+                    "value": [],
+                    "name":"mulSel",
+                    "item": [{
+                        "label":"选项一",
+                        "value":"1"
+                    }, {
+                        "label":"选项二",
+                        "value":"2"
+                    },{
+                        "label":"选项三",
+                        "value":"3"
+                    }]
+                },
+                {
+                    "type": "5",
+                    "reg": "0",
+                    "title": "文本域",
+                    "name":"area",
+                    "value": ""
+                }
+            ],
+            btnMsg:['确定','取消']   
+      }
